@@ -1,0 +1,45 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "sftp/1.0.0": {
+        "dependencies": {
+          "nsoftware.IPWorksSFTP": "24.0.8945"
+        },
+        "runtime": {
+          "sftp.dll": {}
+        }
+      },
+      "nsoftware.IPWorksSFTP/24.0.8945": {
+        "runtime": {
+          "lib/net6.0/nsoftware.IPWorksSFTP.System.dll": {
+            "assemblyVersion": "24.0.8945.0",
+            "fileVersion": "24.0.8945.0"
+          },
+          "lib/net6.0/nsoftware.IPWorksSFTP.dll": {
+            "assemblyVersion": "24.0.8945.0",
+            "fileVersion": "24.0.8945.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sftp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "nsoftware.IPWorksSFTP/24.0.8945": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z+dKidyvCVlQdQwjbwZdiWfOtrVPbpfpNfcH7EM/DzOBeuBbZoAP6aQIVRSgVa3PuD1N7ODktOsHq0dwH5KpJQ==",
+      "path": "nsoftware.ipworkssftp/24.0.8945",
+      "hashPath": "nsoftware.ipworkssftp.24.0.8945.nupkg.sha512"
+    }
+  }
+}

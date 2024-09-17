@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KbcvhgbFczxqA35UtR91ofpREeMoND6SOMOMHTZxOVSGYIYfTvbSA/IkeH8yQ/EkkwDb7upnA2f0Y2caQyq5cA==",
+  "success": true,
+  "projectFilePath": "E:\\GitHub_Repos\\IPWorks\\IPWorksSFTP\\IPWorks SFTP Samples\\SFTP Client\\net\\sftp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DonSchulze\\.nuget\\packages\\nsoftware.ipworkssftp\\24.0.8945\\nsoftware.ipworkssftp.24.0.8945.nupkg.sha512"
+  ],
+  "logs": []
+}

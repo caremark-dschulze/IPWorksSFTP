@@ -1,0 +1,131 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "nsoftware.IPWorksSFTP/24.0.8945": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/nsoftware.IPWorksSFTP.System.dll": {},
+          "lib/net6.0/nsoftware.IPWorksSFTP.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/nsoftware.IPWorksSFTP.System.dll": {},
+          "lib/net6.0/nsoftware.IPWorksSFTP.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "nsoftware.IPWorksSFTP/24.0.8945": {
+      "sha512": "z+dKidyvCVlQdQwjbwZdiWfOtrVPbpfpNfcH7EM/DzOBeuBbZoAP6aQIVRSgVa3PuD1N7ODktOsHq0dwH5KpJQ==",
+      "type": "package",
+      "path": "nsoftware.ipworkssftp/24.0.8945",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid40/nsoftware.IPWorksSFTP.dll",
+        "lib/monoandroid40/nsoftware.IPWorksSFTP.xml",
+        "lib/net40/nsoftware.IPWorksSFTP.System.dll",
+        "lib/net40/nsoftware.IPWorksSFTP.dll",
+        "lib/net40/nsoftware.IPWorksSFTP.xml",
+        "lib/net6.0/nsoftware.IPWorksSFTP.System.dll",
+        "lib/net6.0/nsoftware.IPWorksSFTP.dll",
+        "lib/net6.0/nsoftware.IPWorksSFTP.xml",
+        "lib/netcoreapp3.1/nsoftware.IPWorksSFTP.dll",
+        "lib/netcoreapp3.1/nsoftware.IPWorksSFTP.xml",
+        "lib/netstandard2.0/nsoftware.IPWorksSFTP.dll",
+        "lib/netstandard2.0/nsoftware.IPWorksSFTP.xml",
+        "lib/uap10.0/nsoftware.IPWorksSFTP.dll",
+        "lib/uap10.0/nsoftware.IPWorksSFTP.xml",
+        "lib/xamarinios10/nsoftware.IPWorksSFTP.dll",
+        "lib/xamarinios10/nsoftware.IPWorksSFTP.xml",
+        "lib/xamarinmac20/nsoftware.IPWorksSFTP.dll",
+        "lib/xamarinmac20/nsoftware.IPWorksSFTP.xml",
+        "license.txt",
+        "nsoftware.ipworkssftp.24.0.8945.nupkg.sha512",
+        "nsoftware.ipworkssftp.nuspec",
+        "packageIcon.png",
+        "readme.md"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "nsoftware.IPWorksSFTP >= 24.*"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\DonSchulze\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\VisualStudio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\GitHub_Repos\\IPWorks\\IPWorksSFTP\\IPWorks SFTP Samples\\SFTP Client\\net\\sftp.csproj",
+      "projectName": "sftp",
+      "projectPath": "E:\\GitHub_Repos\\IPWorks\\IPWorksSFTP\\IPWorks SFTP Samples\\SFTP Client\\net\\sftp.csproj",
+      "packagesPath": "C:\\Users\\DonSchulze\\.nuget\\packages\\",
+      "outputPath": "E:\\GitHub_Repos\\IPWorks\\IPWorksSFTP\\IPWorks SFTP Samples\\SFTP Client\\net\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\VisualStudio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\DonSchulze\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "nsoftware.IPWorksSFTP": {
+            "target": "Package",
+            "version": "[24.*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
